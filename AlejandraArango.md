@@ -1,6 +1,12 @@
-# Tarea 4 - Almacenamiento y Consultas de Datos en Big Data
+# Tarea 4 - Almacenamiento y Consultas de Datos en Big Data con MongoDB
 
-## Consultas MongoDB – Base de Datos Ecommerce
+## Aplicando consultas en MongoDB para la gestión eficiente de datos en un entorno Ecommerce
+El manejo de grandes volúmenes de información es uno de los pilares fundamentales en el ámbito del Big Data. Para ello, las bases de datos NoSQL como MongoDB ofrecen herramientas flexibles y potentes que permiten realizar operaciones de inserción, actualización, eliminación y consulta de datos de manera eficiente.
+En este trabajo se presentan ejemplos prácticos aplicados a una base de datos de comercio electrónico (Ecommerce), donde se ilustran consultas básicas, filtros con operadores y procesos de agregación para obtener estadísticas relevantes. El objetivo es comprender cómo estas operaciones facilitan la organización y el análisis de la información, optimizando la gestión de datos en entornos reales.
+
+### Descripción
+Este trabajo muestra ejemplos de consultas en MongoDB aplicadas a una base de datos de Ecommerce, incluyendo operaciones básicas, filtros y agregaciones para analizar y gestionar datos de manera eficiente.
+
 1.Consultas básicas (inserción, selección, actualización y eliminación de documentos).
 
 - Insertar un producto
