@@ -16,7 +16,7 @@ db.products.insertOne({
 });
 ```
 <p float="left">
-  <img src="Imagenes/Insertar usuario.png" width="500" />
+  <img src="Capturas/Agregar producto.png" width="500" />
 </p>
 
 - Actualizar nombre de un producto
@@ -27,7 +27,7 @@ db.products.updateOne(
 );
 ```
 <p float="left">
-  <img src="Imagenes/Actualizar stock.png" width="500" />
+  <img src="Capturas/Actualizar producto.png" width="500" />
 </p>
 
 
@@ -36,7 +36,7 @@ db.products.updateOne(
 db.reviews.deleteOne({ _id: 60 });
 ```
 <p float="left">
-  <img src="Imagenes/Mostrar usuarios.png" width="500" />
+  <img src="Capturas/Borrar reseña.png" width="500" />
 </p>
 
 
@@ -52,7 +52,7 @@ db.products.find(
 );
 ```
 <p float="left">
-  <img src="Imagenes/Productos con precio mayor.png" width="500" />
+  <img src="Capturas/Productos que empiezan por A.png" width="500" />
 </p>
 
 
@@ -61,7 +61,7 @@ db.products.find(
 db.reviews.find({ rating: { $gte: 5 } });
 ```
 <p float="left">
-  <img src="Imagenes/Buscar productos.png" width="500" />
+  <img src="Capturas/Puntuacion 5.png" width="500" />
 </p>
 
 
@@ -73,7 +73,7 @@ db.orders.find(
 );
 ```
 <p float="left">
-  <img src="Imagenes/Productos con stock.png" width="500" />
+  <img src="Capturas/Estatus Entregado.png" width="500" />
 </p>
 
 
@@ -89,7 +89,7 @@ db.orders.aggregate([
 ]);
 ```
 <p float="left">
-  <img src="Imagenes/Contar usuarios.png" width="500" />
+  <img src="Capturas/Orden de compra 1.png" width="500" />
 </p>
 
 
@@ -100,7 +100,7 @@ db.products.aggregate([
 ]);
 ```
 <p float="left">
-  <img src="Imagenes/Total ventas.png" width="500" />
+  <img src="Capturas/Promedio Precio.png" width="500" />
 </p>
 
 
@@ -111,5 +111,5 @@ db.products.aggregate([
 ]);
 ```
 <p float="left">
-  <img src="Imagenes/Promedio calificación.png" width="500" />
+  <img src="Capturas/Total productos.png" width="500" />
 </p>
